@@ -7,11 +7,15 @@ src
 │   ├── Employee.java
 │   ├── Promotion.java
 │   ├── Reservation.java
-│   └── Room.java
+│   ├── Room.java
+│   ├── Food.java
+│   └── Service.java
 │   ├── CustomerManagement.java
 │   ├── EmployeeManagement.java
 │   ├── PromotionManagement.java
 │   ├── ReservationManagement.java
+│   ├── FoodManagement.java
+│   ├── ServiceManagement.java
 │   └── RoomManagement.java
 └── view
     ├── Constants.java
