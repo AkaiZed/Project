@@ -1,0 +1,108 @@
+src
+├── controller
+│   ├── HotelManagement.java
+│   └── ResetMainMenu.java
+├── model
+│   ├── Customer.java
+│   ├── Employee.java
+│   ├── Promotion.java
+│   ├── Reservation.java
+│   └── Room.java
+│   ├── CustomerManagement.java
+│   ├── EmployeeManagement.java
+│   ├── PromotionManagement.java
+│   ├── ReservationManagement.java
+│   └── RoomManagement.java
+└── view
+    ├── Constants.java
+    ├── InputUtils.java
+    ├── Menu.java
+    ├── StringUtils.java
+    └── Validation.java
+
+- Employees
+  + ID
+  + Name
+  + Age
+  + Phone Number
+  + Position(...)
+  + Salary
+- Customer
+  + ID
+  + Name
+  + Phone Number
+  + Gender
+  + Type (VIP, Standard)
+  + Stay history
+  + Special request
+- Room
+  + Room Number
+  + Type (Deluxe, Luxury)
+     > SingleRoom
+     > DoubleRoom
+  + Price 
+  + Status
+- Promotions:
+  + ID
+  + Name
+  + Date
+  + Status(Active, ended)
+  + Conditions apply
+  + Discount
+- Reservation:
+  + Customer
+  + Room number
+  + Check-in Date
+  + Check-out Date
+  + Status (Available, Under Maintenance Booked, Canceled, Checked-in, Checked-out)
+- Food
+  + ID food
+  + Item
+  + Quantity
+  + Price
+* Hotel Management
+- Employees Management:
+  + Display employees list (sorted by ID)
+  + Add new employees
+  + Remove employees
+  + Sort employees (name, age, position, salary)
+  + Search employees (ID, name, age, position, phone number)
+  + Update employee details
+  + Statistic age of employees
+- Customers Management:
+  + Display list (sorted by ID)
+  + Add customer
+  + Remove customer
+  + Search customer (ID, name, phone number, gender, type)
+  + View customer stay history.
+  + Static (age, date) 
+- Room Management:
+  + Display room list (sorted by room number)
+  + Add room
+  + Remove room
+  + Update room detail
+  + Search (roomNumber, type, status)
+  + Sort (type, status)
+- Promotions Management:
+  + Display list (sorted by ID)
+  + Add
+  + Remove
+  + Update
+  + Search(ID, name, even date, CI, CO)
+  + Sort (CI, CO)
+- Reservation Management:
+  + Display list (sorted by CI)
+  + Add reservation
+  + Cancel reservation
+  + Search reservation (customer, room, CI, CO, status)
+  + Sort (inc CI, inc CO, dec CI, Dec CO)
+  + Check-in
+  + Check-out
+- Food Management:
+  + Add food item
+  + Remove food item
+  + Update food item
+  + Search food (ID, name)
+  + Sort (name, quantity, price)
+  + Order bill
+  + Generate bill
