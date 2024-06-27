@@ -60,6 +60,11 @@ src
   + Item
   + Quantity
   + Price
+-Service
+  +Service ID
+  +Name(spa,golf,..)
+  +Description(chi tiết)
+  +Price
 * Hotel Management
 - Employees Management:
   + Display employees list (sorted by ID)
@@ -105,4 +110,12 @@ src
   + Search food (ID, name)
   + Sort (name, quantity, price)
   + Order bill
+  + Generate bill
+ -Service Management
+  + Display services list: Show a list of all services, sorted by service ID.
+  + Add service
+  + Remove service
+  + Update service
+  + Search service: ( service ID, name.)
+  +Sort: (name, price).
   + Generate bill
