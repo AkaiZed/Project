@@ -9,6 +9,8 @@ src
 │   ├── Reservation.java
 │   ├── Room.java
 │   ├── Food.java
+│   ├── Bill.java
+│   ├── Feedback.java
 │   └── Service.java
 │   ├── CustomerManagement.java
 │   ├── EmployeeManagement.java
@@ -16,6 +18,8 @@ src
 │   ├── ReservationManagement.java
 │   ├── FoodManagement.java
 │   ├── ServiceManagement.java
+│   ├── BillManagement.java
+│   ├── FeedbackManagement.java
 │   └── RoomManagement.java
 └── view
     ├── Constants.java
