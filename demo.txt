@@ -64,11 +64,29 @@ src
   + Item
   + Quantity
   + Price
--Service
+- Service
   +Service ID
   +Name(spa,golf,..)
   +Description(chi tiết)
   +Price
+- Bill 
+  + Bill ID
+  + Date
+  + Total 
+  + Payment methods
+  + Payment status
+  + List of rented rooms
+  + List of services used
+  + List of ordered dishes and drinks
+  + Information Customer
+  + Reservation information (Check-in date, check-out date, number of days of stay)
+  + Promotions
+  + Note
+- Feedback
+  + ID
+  + Date
+  + Customer
+  + Content
 
 * Hotel Management
 - Employees Management:
@@ -124,3 +142,17 @@ src
   + Search service: ( service ID, name.)
   +Sort: (name, price).
   + Generate bill
+- Bill Management
+  + Display
+  + Add
+  + Remove
+  + Update
+  + Search (date, custome,...)
+  + Sort (date(inc, dec), total amount,...)
+- Feedback Management
+  + Display
+  + Add
+  + Remove
+  + Update
+  + Search (Date, customer)
+  + Sort (Date(inc, dec), customer)
