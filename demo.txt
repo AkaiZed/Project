@@ -65,6 +65,7 @@ src
   +Name(spa,golf,..)
   +Description(chi tiết)
   +Price
+
 * Hotel Management
 - Employees Management:
   + Display employees list (sorted by ID)
