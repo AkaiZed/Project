@@ -34,6 +34,12 @@ src
   + Age
   + Phone Number
   + Position(...)
+     > Receptionist
+         Direct reception staff
+         Customer care staff
+     > Service
+         Housekeeping staff
+         Shuttle staff
   + Salary
 - Customer
   + ID
